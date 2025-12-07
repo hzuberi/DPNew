@@ -57,11 +57,7 @@ export async function POST(request: NextRequest) {
       requireTLS: smtpPort === 587,
       logger: process.env.NODE_ENV === 'development',
       debug: process.env.NODE_ENV === 'development',
-      // Microsoft 365 specific options
-      pool: false,
-      maxConnections: 1,
-      maxMessages: 1,
-    });
+    } as any);
 
     // Verify connection with better error handling
     try {
