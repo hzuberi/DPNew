@@ -65,7 +65,7 @@ export default function AboutUsPage() {
                     In the Last 11 Years, using Social Media, Dr. Zuberi has developed a community of Internationally Qualified Dentists who want to pursue their career in North America. This helps in interaction and sharing the knowledge regarding the steps to get qualified for practising dentistry in the United States and Canada. For those who want to appear in Dental Boards Exams, Dr Zuberi conducts online Teaching and Training courses since 2010.
                   </p>
                   <p>
-                    Since then, his students' performance is outstanding. In some of the batches of these aspirants the passing percentage was 100 percent in the first attempt. Most of his students either joined and graduated from different dental schools of North America or they cleared the Direct Licensing Exams of NDEB Canada.
+                    Since then, his students&apos; performance is outstanding. In some of the batches of these aspirants the passing percentage was 100 percent in the first attempt. Most of his students either joined and graduated from different dental schools of North America or they cleared the Direct Licensing Exams of NDEB Canada.
                   </p>
                   <p>
                     He has a good grasp on almost all the subjects of Basic as well as Clinical Sciences. He always keeps himself abreast of the latest developments in the field of dentistry by going through Dental articles being published in different Dental Journals regularly.
