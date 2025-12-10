@@ -9,6 +9,13 @@ if (!supabaseUrl || !supabaseAnonKey) {
     hasUrl: !!supabaseUrl,
     hasKey: !!supabaseAnonKey,
   });
+  if (typeof window === 'undefined') {
+    // Server-side: log more details
+    console.error('Supabase configuration error:');
+    console.error('- NEXT_PUBLIC_SUPABASE_URL:', supabaseUrl ? 'Set' : 'MISSING');
+    console.error('- NEXT_PUBLIC_SUPABASE_ANON_KEY:', supabaseAnonKey ? 'Set' : 'MISSING');
+    console.error('Please check your environment variables in Vercel or .env.local file');
+  }
 }
 
 export const supabase = supabaseUrl && supabaseAnonKey

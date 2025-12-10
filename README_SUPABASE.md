@@ -11,12 +11,25 @@ Alternatively, you can run the migration using the Supabase CLI if you have it i
 
 ## 2. Environment Variables
 
+### Local Development
+
 Make sure your `.env.local` file contains:
 
 ```env
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 ```
+
+### Vercel Deployment
+
+**IMPORTANT**: For Vercel deployments, you must add these environment variables in your Vercel project settings:
+
+1. Go to your Vercel project → **Settings** → **Environment Variables**
+2. Add `NEXT_PUBLIC_SUPABASE_URL` with your Supabase project URL
+3. Add `NEXT_PUBLIC_SUPABASE_ANON_KEY` with your Supabase anon key
+4. **Redeploy** your application after adding the variables
+
+See `VERCEL_SETUP.md` for detailed instructions.
 
 ## 3. Install Dependencies
 
